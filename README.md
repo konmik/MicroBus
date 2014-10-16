@@ -25,7 +25,7 @@ Initialization:
 
     MicroBus bus = new MicroBus();
 
-Definition of message:
+Definition of a message:
 
     public class Hello {
         public String name;
