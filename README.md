@@ -1,6 +1,8 @@
 MicroBus
 ===================
 
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-MicroBus-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/1380)
+
 This simple class could be the giant of your application.
 
 It is inspired by OttoBus (http://square.github.io/otto/), and it
