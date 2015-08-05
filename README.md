@@ -1,24 +1,13 @@
-MicroBus
+MicroBus - DEPRECATED
 ===================
 
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-MicroBus-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/1380)
 
-This simple class could be the giant of your application.
+The event bus is considered to be an anti-pattern now.
+Thus, I mark it as deprecated now.
 
-It is inspired by OttoBus (http://square.github.io/otto/), and it
-has its stronger and weaker points.
-
-Advantages:
-
-1. It does not use annotations.
-2. It does not have a bug with subclasses (https://github.com/square/otto/issues/122)
-3. It has only 35 lines of code (at the moment of first release).
-
-Disadvantages:
-
-1. This is a one-thread solution.
-2. Usage requires a little more code.
-
+Code that relies heavily on using a bus is an unsupportable mess.
+Use Observable-Observer patters instead, [RxJava](https://github.com/ReactiveX/RxJava) preferable.
 
 USAGE
 -------------------
